@@ -9,7 +9,7 @@ export default class Person {
 
   static build (): Person {
     let text = 'text'
-    let text2 = 33213213123123123213213213213321312312 + 'a'
+    let text2 = 33213213123123123213213213213321312312 + 'ba'
     console.log(text)
 
     return new Person()
