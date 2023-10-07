@@ -7,11 +7,12 @@
   "scripts": {
     "start": "node src/index.js"
   },
-  "keywords": [ ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "@faker-js/faker": "^8.1.0"
