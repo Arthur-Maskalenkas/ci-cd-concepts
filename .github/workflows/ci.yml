@@ -24,4 +24,3 @@ jobs:
           args: >
             -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} 
             -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }}
-            -sonar.scm.provider=git
