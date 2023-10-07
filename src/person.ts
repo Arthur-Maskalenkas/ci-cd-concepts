@@ -8,7 +8,9 @@ export default class Person {
   }
 
   static build (): Person {
-    console.log('build method')
+    let text = 'text'
+    let text2 = 33213213123123123213213213213321312312 + 'a'
+    console.log(text)
 
     return new Person()
   }
