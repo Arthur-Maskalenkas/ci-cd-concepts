@@ -1,25 +1,22 @@
 export default class Calculator {
   private result: number
 
-  private constructor () {
+  private constructor() {
     this.result = 0
   }
 
-  public add (value: number): Calculator {
+  public add(value: number): Calculator {
     this.result += value
     return this
   }
 
-  public subtract (value: number): Calculator {
+  public subtract(value: number): Calculator {
     this.result -= value
     return this
   }
 
   public addDuplicated0(value: number): Calculator {
     this.result += value
-    const numbers = [10, 2, 30, 1, 5];
-    numbers.sort(); // Noncompliant: lexicographic sort
-    console.log(numbers); // Output: [1, 10, 2, 30, 5]
     return this
   }
 
@@ -28,17 +25,17 @@ export default class Calculator {
     return this
   }
 
-  public multiply (value: number): Calculator {
+  public multiply(value: number): Calculator {
     this.result *= value
     return this
   }
 
   // @ts-ignore
-  public getResult (): number {
+  public getResult(): number {
     console.log(this.result)
   }
 
-  static build (): Calculator {
+  static build(): Calculator {
     return new Calculator()
   }
 
