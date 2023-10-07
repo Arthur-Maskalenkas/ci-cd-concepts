@@ -1,9 +1,8 @@
-import Person from "./person";
+import Person from './person'
 
-function main() {
-  const person = Person.build();
-  person.eat();
-
+function main (): void {
+  const person = Person.build()
+  person.eat()
 }
 
-main();
+main()

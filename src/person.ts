@@ -1,13 +1,13 @@
 export default class Person {
-  eat() {
+  eat (): void {
     console.log('eat method')
   }
 
-  run() {
+  run (): void {
     console.log('run method')
   }
 
-  static build() {
+  static build (): Person {
     console.log('build method')
 
     return new Person()
